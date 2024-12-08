@@ -1,0 +1,6 @@
+Scrapy==2.12.0
+psycopg2-binary==2.9.10
+redis==5.2.1
+pymongo==4.10.1
+python-dateutil==2.9.0.post0
+pandas==2.2.3
