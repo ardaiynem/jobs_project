@@ -39,7 +39,7 @@ The **Jobs Project** is a web scraping and data processing pipeline designed to 
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/jobs_project.git
+git clone https://github.com/ardaiynem/jobs_project.git
 cd jobs_project
 ```
 ### 2. Copying JSON Files into Project Directory
