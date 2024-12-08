@@ -85,6 +85,8 @@ This command will:
 - Ensure all services are healthy and running.
 - Run the scrapy crawl project then run the query script for producing csv files.
 
+**NOTE:** The scraping pipeline and csv file porduction will begin after a few seconds of mongo logs due to the health check of database services. Also note that the scrapy container will continue existing after it executes the query.py script, this is intentional as that container will be accessible for debugging and other purposes in case of an exception.
+
 ## Pipeline Process
 ### 1. Scrapy Spider
 The JobSpider is responsible for crawling and extracting job listings from specified JSON files. It reads local JSON files, sends HTTP requests, and parses the responses to extract relevant job data.
